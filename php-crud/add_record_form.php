@@ -13,7 +13,7 @@ $statement->closeCursor();
 <!-- the head section -->
 <head>
     <title>PHP CRUD</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 <!-- the body section -->
 <body>
@@ -34,15 +34,15 @@ $statement->closeCursor();
             </select>
             <br>
 
-            <label>Code:</label>
-            <input type="input" name="code">
-            <br>
-
-            <label>Name:</label>
+            <label>Most Viewed Video</label>
             <input type="input" name="name">
             <br>
 
-            <label>Price:</label>
+            <label>Name:</label>
+            <input type="input" name="code">
+            <br>
+
+            <label>Subscribers:</label>
             <input type="input" name="price">
             <br>
 
