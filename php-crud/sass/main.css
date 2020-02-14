@@ -1,27 +1,9 @@
-/* the styles for the html elements */
-html {
-  background-color: #ccc;
-}
-
 body {
   margin-top: 0;
   font-family: Arial, Helvetica, sans-serif;
   width: 1000px;
   margin: 0 auto;
-  background-color: white;
-  border: 1px solid black;
   padding: .5em 2em;
-}
-
-header {
-  margin: 0;
-  border-bottom: 2px solid black;
-}
-
-header h1 {
-  margin: 0;
-  padding: .5em 0;
-  color: black;
 }
 
 main {
@@ -73,10 +55,6 @@ h2 {
   padding: .25em 0 .5em;
 }
 
-h1, h2 {
-  color: #333;
-}
-
 ul {
   margin: 0 0 1em 0;
   padding: 0 0 0 2.5em;
@@ -87,22 +65,7 @@ li {
   padding: 0;
 }
 
-a {
-  color: #29407c;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #d08504;
-}
-
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
 td, th {
-  border: 1px dashed black;
   padding: .2em .5em .2em .5em;
   vertical-align: top;
   text-align: left;
@@ -149,5 +112,48 @@ br {
 
 #add_record_form input[text] {
   width: 15em;
+}
+
+/* the styles for the html elements */
+html {
+  background-color: #ccc;
+}
+
+body {
+  background-color: #89adee;
+  border: 1px solid black;
+}
+
+a:hover {
+  color: #d08504;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+a {
+  color: #29407c;
+  font-weight: bold;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px dashed black;
+}
+
+header {
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  margin: 0;
+  padding: .5em 0;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

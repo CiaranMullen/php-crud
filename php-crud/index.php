@@ -40,11 +40,13 @@ $statement3->closeCursor();
 <!-- the head section -->
 <head>
 <title>PHP CRUD</title>
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 <!-- the body section -->
 <body>
-<header><h1>PHP CRUD</h1></header>
+    
+<?php include './includes/header.php';?>
+
 <main>
 <h1>Record List</h1>
 <aside>
@@ -102,8 +104,8 @@ value="<?php echo $record['categoryID']; ?>">
 <p><a href="category_list.php">Edit Categories</a></p>
 </section>
 </main>
-<footer>
-<p>&copy; <?php echo date("Y"); ?> PHP CRUD, Inc.</p>
-</footer>
+<?php include './includes/footer.php';?>
+
 </body>
 </html>
+
