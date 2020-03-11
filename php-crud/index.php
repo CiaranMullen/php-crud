@@ -70,7 +70,8 @@ $statement3->closeCursor();
 <tr>
 <th>Image</th>
 <th>Name</th>
-<th>subs</th>
+<th>Most Viewed Video</th>
+<th>Price</th>
 <th>Delete</th>
 <th>Edit</th>
 </tr>
@@ -78,7 +79,8 @@ $statement3->closeCursor();
 <tr>
 <td><img src="image_uploads/<?php echo $record['image']; ?>" width="100px" height="100px" /></td>
 <td><?php echo $record['name']; ?></td>
-<td><?php echo $record['subs']; ?></td>
+<td><?php echo $record['code']; ?></td>
+<td><?php echo $record['price']; ?></td>
 <td><form action="delete_record.php" method="post"
 id="delete_record_form">
 <input type="hidden" name="record_id"
@@ -100,8 +102,6 @@ value="<?php echo $record['categoryID']; ?>">
 </table>
 <p><a href="add_record_form.php">Add Record</a></p>
 <p><a href="category_list.php">Edit Categories</a></p>
-
-
 </section>
 </main>
 <?php include './includes/footer.php';?>
