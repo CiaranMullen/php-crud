@@ -70,7 +70,7 @@ $statement3->closeCursor();
 <tr>
 <th>Image</th>
 <th>Name</th>
-<th>Most Viewed Video</th>
+<th>Code</th>
 <th>Price</th>
 <th>Delete</th>
 <th>Edit</th>
