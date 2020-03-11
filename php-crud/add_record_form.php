@@ -34,16 +34,12 @@ $statement->closeCursor();
             </select>
             <br>
 
-            <label>Most Viewed Video</label>
+            <label>Name:</label>
             <input type="input" name="name">
             <br>
 
-            <label>Name:</label>
-            <input type="input" name="code">
-            <br>
-
-            <label>Subscribers:</label>
-            <input type="input" name="price">
+            <label>subscribers:</label>
+            <input type="input" name="subs">
             <br>
 
             <label>Image:</label>
