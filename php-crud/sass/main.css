@@ -1,9 +1,27 @@
+/* the styles for the html elements */
+html {
+  background-color: #ccc;
+}
+
 body {
   margin-top: 0;
   font-family: Arial, Helvetica, sans-serif;
   width: 1000px;
   margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
   padding: .5em 2em;
+}
+
+header {
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  margin: 0;
+  padding: .5em 0;
+  color: black;
 }
 
 main {
@@ -55,6 +73,10 @@ h2 {
   padding: .25em 0 .5em;
 }
 
+h1, h2 {
+  color: #333;
+}
+
 ul {
   margin: 0 0 1em 0;
   padding: 0 0 0 2.5em;
@@ -65,7 +87,22 @@ li {
   padding: 0;
 }
 
+a {
+  color: #29407c;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #d08504;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 td, th {
+  border: 1px dashed black;
   padding: .2em .5em .2em .5em;
   vertical-align: top;
   text-align: left;
@@ -155,5 +192,156 @@ header h1 {
   margin: 0;
   padding: .5em 0;
   color: black;
+}
+
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+
+/* =============================================================================
+      My CSS
+      ========================================================================== */
+/* ---- base ---- */
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=main.css.map */

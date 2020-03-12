@@ -1,4 +1,4 @@
- <?php
+<?php
 // Connect to the database
 require_once('database.php');
 // Set the default category to the ID of 1
@@ -39,7 +39,7 @@ $statement3->closeCursor();
 <html>
 <!-- the head section -->
 <head>
-<title>PHP CRUD</title>
+<title>YOUTUBERS</title>
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 <!-- the body section -->
@@ -70,8 +70,8 @@ $statement3->closeCursor();
 <tr>
 <th>Image</th>
 <th>Name</th>
-<th>Code</th>
-<th>Price</th>
+<th>subscribers</th>
+<th>dob</th>
 <th>Delete</th>
 <th>Edit</th>
 </tr>
@@ -79,8 +79,8 @@ $statement3->closeCursor();
 <tr>
 <td><img src="image_uploads/<?php echo $record['image']; ?>" width="100px" height="100px" /></td>
 <td><?php echo $record['name']; ?></td>
-<td><?php echo $record['code']; ?></td>
-<td><?php echo $record['price']; ?></td>
+<td><?php echo $record['subs']; ?></td>
+<td><?php echo $record['dob']; ?></td>
 <td><form action="delete_record.php" method="post"
 id="delete_record_form">
 <input type="hidden" name="record_id"

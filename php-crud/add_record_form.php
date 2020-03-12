@@ -34,16 +34,16 @@ $statement->closeCursor();
             </select>
             <br>
 
-            <label>Code:</label>
-            <input type="input" name="code">
+            <label>Subscribers:</label>
+            <input type="input" name="subs">
             <br>
 
             <label>Name:</label>
-            <input type="input" name="name">
+            <input type="input" name="name" required>
             <br>
 
-            <label>Price:</label>
-            <input type="input" name="price">
+            <label>dob:</label>
+            <input type="date" name="dob">
             <br>
 
             <label>Image:</label>
