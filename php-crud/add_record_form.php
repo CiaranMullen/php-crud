@@ -13,7 +13,7 @@ $statement->closeCursor();
 <!-- the head section -->
 <head>
     <title>PHP CRUD</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 <!-- the body section -->
 <body>
@@ -34,6 +34,7 @@ $statement->closeCursor();
             </select>
             <br>
 
+<<<<<<< HEAD
             <label>Subscribers:</label>
             <input type="input" name="subs">
             <br>
@@ -44,6 +45,18 @@ $statement->closeCursor();
 
             <label>dob:</label>
             <input type="date" name="dob">
+=======
+            <label>Most Viewed Video</label>
+            <input type="input" name="name">
+            <br>
+
+            <label>Name:</label>
+            <input type="input" name="code">
+            <br>
+
+            <label>Subscribers:</label>
+            <input type="input" name="price">
+>>>>>>> parent of 386f376... Revert "changed sebgates code for category to youtube info"
             <br>
 
             <label>Image:</label>

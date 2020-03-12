@@ -70,8 +70,13 @@ $statement3->closeCursor();
 <tr>
 <th>Image</th>
 <th>Name</th>
+<<<<<<< HEAD
 <th>subscribers</th>
 <th>dob</th>
+=======
+<th>Most Viewed Video</th>
+<th>Price</th>
+>>>>>>> parent of 386f376... Revert "changed sebgates code for category to youtube info"
 <th>Delete</th>
 <th>Edit</th>
 </tr>
