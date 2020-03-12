@@ -35,15 +35,23 @@ $statement3->execute();
 $records = $statement3->fetchAll();
 $statement3->closeCursor();
 ?>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html id="particles-js">
 <!-- the head section -->
+<!-- particles.js container -->
+<!--<div id="particles-js"></div>-->
+
+<!-- scripts -->
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+
+
 <head>
 <title>YOUTUBERS</title>
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 <!-- the body section -->
-<body>
+
     
 <?php include './includes/header.php';?>
 
@@ -70,13 +78,8 @@ $statement3->closeCursor();
 <tr>
 <th>Image</th>
 <th>Name</th>
-<<<<<<< HEAD
 <th>subscribers</th>
 <th>dob</th>
-=======
-<th>Most Viewed Video</th>
-<th>Price</th>
->>>>>>> parent of 386f376... Revert "changed sebgates code for category to youtube info"
 <th>Delete</th>
 <th>Edit</th>
 </tr>

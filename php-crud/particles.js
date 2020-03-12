@@ -794,7 +794,7 @@ var pJS = function(tag_id, params){
       var dx_mouse = p.x - pJS.interactivity.mouse.pos_x,
           dy_mouse = p.y - pJS.interactivity.mouse.pos_y,
           dist_mouse = Math.sqrt(dx_mouse*dx_mouse + dy_mouse*dy_mouse),
-          ratio = 1 - dist_mouse / pJS.interactivity.modes.bubble.distance;
+          ratio = 0.5 - dist_mouse / pJS.interactivity.modes.bubble.distance;
 
       function init(){
         p.opacity_bubble = p.opacity;

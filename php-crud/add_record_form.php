@@ -33,30 +33,19 @@ $statement->closeCursor();
             <?php endforeach; ?>
             </select>
             <br>
-
-<<<<<<< HEAD
+            <label>Name:</label>
+            <input type="input" name="name" required>
+            <br>
             <label>Subscribers:</label>
             <input type="input" name="subs">
             <br>
 
-            <label>Name:</label>
-            <input type="input" name="name" required>
-            <br>
+           
 
             <label>dob:</label>
             <input type="date" name="dob">
-=======
-            <label>Most Viewed Video</label>
-            <input type="input" name="name">
-            <br>
 
-            <label>Name:</label>
-            <input type="input" name="code">
-            <br>
-
-            <label>Subscribers:</label>
-            <input type="input" name="price">
->>>>>>> parent of 386f376... Revert "changed sebgates code for category to youtube info"
+            
             <br>
 
             <label>Image:</label>
