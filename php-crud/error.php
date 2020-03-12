@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <!-- the head section -->
+<div class="panel" style="display: block;">
 <head>
     <title>PHP CRUD</title>
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -16,4 +17,5 @@
         <p>&copy; <?php echo date("Y"); ?> PHP CRUD, Inc.</p>
     </footer>
 </body>
+</div>
 </html>

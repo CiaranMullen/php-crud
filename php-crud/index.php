@@ -37,20 +37,16 @@ $statement3->closeCursor();
 ?>
 <!DOCTYPE html >
 <html id="particles-js">
-<!-- the head section -->
-<!-- particles.js container -->
-<!--<div id="particles-js"></div>-->
-
-<!-- scripts -->
 <script src="./particles.js"></script>
 <script src="js/app.js"></script>
 
+
+<div class="panel" style="display: block;">
 
 <head>
 <title>YOUTUBERS</title>
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
-<!-- the body section -->
 
     
 <?php include './includes/header.php';?>
@@ -114,6 +110,9 @@ value="<?php echo $record['categoryID']; ?>">
 </main>
 <?php include './includes/footer.php';?>
 
-</body>
+
+
+</div>
+
 </html>
 

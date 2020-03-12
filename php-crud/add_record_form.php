@@ -9,13 +9,20 @@ $categories = $statement->fetchAll();
 $statement->closeCursor();
 ?>
 <!DOCTYPE html>
-<html>
+    
+<html id="particles-js">
+
 <!-- the head section -->
 <head>
     <title>PHP CRUD</title>
     <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
+
 <!-- the body section -->
+<!-- scripts -->
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+
 <body>
 <?php include './includes/header.php';?>
 
@@ -40,14 +47,10 @@ $statement->closeCursor();
             <input type="input" name="subs">
             <br>
 
-           
-
             <label>dob:</label>
             <input type="date" name="dob">
-
-            
+           
             <br>
-
             <label>Image:</label>
             <input type="file" name="image" accept="image/*" />
             <br>

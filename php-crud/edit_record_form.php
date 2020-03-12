@@ -11,14 +11,22 @@ $record = $statement->fetch(PDO::FETCH_ASSOC);
 $statement->closeCursor();
 ?>
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="sass/main.css">
 <html>
+
+
 <!-- the head section -->
+<html id="particles-js">
+
+<!-- scripts -->
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+
+<div class="panel" style="display: block;">
 <head>
     <title>PHP CRUD</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <!-- the body section -->
-<body>
 <?php include './includes/header.php';?>
 
     <main>
@@ -57,5 +65,6 @@ $statement->closeCursor();
     </main>
     <?php include './includes/footer.php';?>
 
-</body>
+            
+</div>
 </html>
