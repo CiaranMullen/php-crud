@@ -43,10 +43,8 @@ $statement3->closeCursor();
 
 <div class="panel" style="display: block;">
 
-<head>
-<title>YOUTUBERS</title>
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
-</head>
+
 
     
 <?php include './includes/header.php';?>
@@ -109,8 +107,6 @@ value="<?php echo $record['categoryID']; ?>">
 </section>
 </main>
 <?php include './includes/footer.php';?>
-
-
 
 </div>
 

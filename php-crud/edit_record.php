@@ -6,8 +6,9 @@ $subs = filter_input(INPUT_POST, 'subs');
 $name = filter_input(INPUT_POST, 'name');
 $dob = filter_input(INPUT_POST, 'dob');
 // Validate inputs
-if ($record_id == NULL || $record_id == FALSE || $category_id == NULL ||
-$category_id == FALSE || empty($subs) || empty($name) ||
+if ($record_id == NULL || $record_id == FALSE || 
+$category_id == NULL || $category_id == FALSE ||
+ empty($subs) || empty($name) ||
 $dob == NULL || $dob == FALSE) {
 $error = "Invalid data. Check all fields and try again.";
 include('error.php');

@@ -11,11 +11,11 @@ $category = $statement->fetch(PDO::FETCH_ASSOC);
 $statement->closeCursor();
 ?>
 <!DOCTYPE html>
-
+  
 <html id="particles-js">
+
 <script src="./particles.js"></script>
 <script src="js/app.js"></script>
-
 <div class="panel" style="display: block;">
 
 <!-- the head section -->
@@ -24,7 +24,6 @@ $statement->closeCursor();
     <link rel="stylesheet" type="text/css" href="sass/main.css">
 </head>
 <!-- the body section -->
-<body>
 <?php include './includes/header.php';?>
 
     <main>
@@ -63,6 +62,5 @@ $statement->closeCursor();
     </main>
     <?php include './includes/footer.php';?>
 
-</body>
 </div>
 </html>

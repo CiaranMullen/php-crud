@@ -67,4 +67,5 @@ if ($category_id == null || $category_id == false ||
     $statement->closeCursor();
 // Display the records List page
     include('index.php');
+    
 }

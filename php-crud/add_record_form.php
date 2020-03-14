@@ -12,18 +12,16 @@ $statement->closeCursor();
     
 <html id="particles-js">
 
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+<div class="panel" style="display: block;">
+
 <!-- the head section -->
 <head>
     <title>PHP CRUD</title>
     <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 
-<!-- the body section -->
-<!-- scripts -->
-<script src="./particles.js"></script>
-<script src="js/app.js"></script>
-
-<body>
 <?php include './includes/header.php';?>
 
 
@@ -62,5 +60,5 @@ $statement->closeCursor();
     </main>
     <?php include './includes/footer.php';?>
 
-</body>
+ </div>
 </html>
