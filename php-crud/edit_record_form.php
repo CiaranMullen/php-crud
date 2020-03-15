@@ -12,7 +12,7 @@ $statement->closeCursor();
 ?>
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="sass/main.css">
-<html>
+
 
 
 <!-- the head section -->
@@ -24,7 +24,7 @@ $statement->closeCursor();
 
 <div class="panel" style="display: block;">
 <head>
-    <title>PHP CRUD</title>
+<?php include './includes/title.php';?>
 </head>
 <!-- the body section -->
 <?php include './includes/header.php';?>

@@ -2,7 +2,7 @@
 <html>
 <!-- the head section -->
 <head>
-    <title>My PHP CRUD application</title>
+    <title>Youtubers</title>
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <!-- the body section -->

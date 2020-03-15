@@ -9,21 +9,23 @@ $categories = $statement->fetchAll();
 $statement->closeCursor();
 ?>
 <!DOCTYPE html>
-    
-<html id="particles-js">
+<link rel="stylesheet" type="text/css" href="sass/main.css">
+<html>
 
-<script src="./particles.js"></script>
-<script src="js/app.js"></script>
-<div class="panel" style="display: block;">
 
 <!-- the head section -->
+<html id="particles-js">
+
+<!-- scripts -->
+<script src="./particles.js"></script>
+<script src="js/app.js"></script>
+
+<div class="panel" style="display: block;">
 <head>
-    <title>PHP CRUD</title>
-    <link rel="stylesheet" type="text/css" href="./sass/main.css">
+<?php include './includes/title.php';?>
 </head>
-
+<!-- the body section -->
 <?php include './includes/header.php';?>
-
 
     <main>
         <h1>Add Record</h1>
@@ -56,9 +58,9 @@ $statement->closeCursor();
             <input type="submit" value="Add Record">
             <br>
         </form>
-        <p><a href="index.php">Homepage</a></p>
     </main>
     <?php include './includes/footer.php';?>
 
- </div>
+            
+</div>
 </html>

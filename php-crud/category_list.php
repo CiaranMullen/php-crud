@@ -18,7 +18,7 @@
 
 <!-- the head section -->
 <head>
-    <title>PHP CRUD</title>
+<?php include './includes/title.php';?>
     <link rel="stylesheet" type="text/css" href="./sass/main.css">
 </head>
 

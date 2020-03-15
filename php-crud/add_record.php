@@ -20,7 +20,8 @@ if ($category_id == null || $category_id == false ||
     $imgSize = $_FILES['image']['size'];
     if (empty($imgFile)) {
         $image = "";
-    } else {
+    } else 
+    {
         $upload_dir = 'image_uploads/'; // upload directory
         $imgExt = strtolower(pathinfo($imgFile, PATHINFO_EXTENSION)); // get image extension
         // valid image extensions
@@ -50,7 +51,7 @@ if ($category_id == null || $category_id == false ||
         }
     }
 // End Image upload
-    
+  
     require_once('database.php');
     // Add the records to the database 
     $query = "INSERT INTO records
@@ -69,3 +70,4 @@ if ($category_id == null || $category_id == false ||
     include('index.php');
     
 }
+?>
