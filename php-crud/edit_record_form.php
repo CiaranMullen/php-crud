@@ -41,15 +41,15 @@ $statement->closeCursor();
                    value="<?php echo $record['categoryID']; ?>">
             <br>
             <label>subscriber:</label>
-            <input type="input" name="subs"
+            <input type="input" name="subs" required
                    value="<?php echo $record['subs']; ?>">
             <br>
             <label>Name:</label>
-            <input type="input" name="name"
+            <input type="input" name="name"required
                    value="<?php echo $record['name']; ?>">
             <br>
             <label>dob:</label>
-            <input type="date" name="dob"
+            <input type="date" name="dob"required
                    value="<?php echo $record['dob']; ?>">
             <br>
             <label>Image:</label>

@@ -41,10 +41,10 @@ $statement->closeCursor();
             </select>
             <br>
             <label>Name:</label>
-            <input type="input" name="name" required>
+            <input type="input" name="name" required placeholder="Name">
             <br>
             <label>Subscribers:</label>
-            <input type="input" name="subs">
+            <input type="input" name="subs" required placeholder=" sub count">
             <br>
 
             <label>dob:</label>
