@@ -48,7 +48,7 @@ $statement->closeCursor();
             <br>
 
             <label>dob:</label>
-            <input type="date" name="dob">
+            <input type="date" name="dob" required>
            
             <br>
             <label>Image:</label>

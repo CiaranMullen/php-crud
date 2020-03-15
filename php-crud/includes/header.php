@@ -53,6 +53,8 @@
   }
 }
 </style>
+
+<link rel="icon" href="image_uploads/youtube.jpg" type="image" sizes="16x16">
 </head>
 <body>
 
