@@ -53,6 +53,10 @@ $statement->closeCursor();
             <br>
             <label>Image:</label>
             <input type="file" name="image" accept="image/*" />
+            <br> 
+            <br>
+            <label>Image:</label>
+            <input type="file" name="image" accept="image/*" />
             <br>
             <label>&nbsp;</label>
             <input type="submit" value="Add Record">
