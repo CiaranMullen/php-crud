@@ -11,6 +11,9 @@
   <a href="login.php">Login</a>
   <a href="logout.php">Logout</a>
   <a href="register.php">Register</a>
+  <a href="index_manager.php">Admin</a>
+  <a href="users.php">Users</a>
+
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>

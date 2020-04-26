@@ -1,4 +1,7 @@
 <?php
+
+
+
 // Connect to the database
 require_once('database.php');
 // Set the default category to the ID of 1
@@ -74,8 +77,6 @@ $statement3->closeCursor();
 <th>Name</th>
 <th>subscribers</th>
 <th>dob</th>
-<th>Delete</th>
-<th>Edit</th>
 </tr>
 <?php foreach ($records as $record) : ?>
 <tr>
@@ -83,22 +84,7 @@ $statement3->closeCursor();
 <td><?php echo $record['name']; ?></td>
 <td><?php echo $record['subs']; ?></td>
 <td><?php echo $record['dob']; ?></td>
-<td><form action="delete_record.php" method="post"
-id="delete_record_form">
-<input type="hidden" name="record_id"
-value="<?php echo $record['recordID']; ?>">
-<input type="hidden" name="category_id"
-value="<?php echo $record['categoryID']; ?>">
-<input type="submit" value="Delete">
-</form></td>
-<td><form action="edit_record_form.php" method="post"
-id="delete_record_form">
-<input type="hidden" name="record_id"
-value="<?php echo $record['recordID']; ?>">
-<input type="hidden" name="category_id"
-value="<?php echo $record['categoryID']; ?>">
-<input type="submit" value="Edit">
-</form></td>
+
 </tr>
 <?php endforeach; ?>
 </table>

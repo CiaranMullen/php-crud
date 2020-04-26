@@ -1,3 +1,3 @@
 <footer>
-<p>&copy; <?php echo date("Y"); ?> Youtubers, Inc. By Ciaran Mullen</p>
+<p>&copy; <?php echo date("Y"); ?> Youtubers Ltd. by Ciaran Mullen</p>
 </footer>

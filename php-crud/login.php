@@ -85,6 +85,7 @@ if(isset($_POST['login'])){
 <div class="panel" style="display: block;">
 
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
+<link rel="stylesheet" type="text/css" href="./sass/register.css">
 
 
 <?php include './includes/header.php';?>

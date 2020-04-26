@@ -92,11 +92,13 @@ if(isset($_POST['register'])){
 <div class="panel" style="display: block;">
 
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
+<link rel="stylesheet" type="text/css" href="./sass/register.css">
 
 
 <?php include './includes/header.php';?>
 <div class="reg">
         <title>Register</title>
+
     </head>
     <body>
         <h1>Register</h1>
@@ -105,9 +107,9 @@ if(isset($_POST['register'])){
             <input type="text" id="username"placeholder="Enter Username" name="username"><br>
             <label for="password">Password</label>
             <input type="text" id="password"placeholder="Enter Password" name="password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
-            <input type="submit" name="login" value="Register">
+            <input type="submit" name="register" value="Register">
         </form>
-        		
+      
 <div id="message">
   <h3>Password must contain the following:</h3>
   <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
@@ -118,7 +120,9 @@ if(isset($_POST['register'])){
 
 </div>
 
+
 <script>
+    
     //////////////////////////////////////////////////////////////////////////////////////////
 var myInput = document.getElementById("password");
 var letter = document.getElementById("letter");
@@ -177,6 +181,7 @@ myInput.onkeyup = function() {
     length.classList.add("invalid");
   }
 }
+
 </script>
     </body>
     <?php include './includes/footer.php';?>

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* the styles for the html elements */
 body {
   margin-top: 0;
@@ -395,66 +394,5 @@ header h1 {
   .login .cancelbtn {
     width: 100%;
   }
-}
-
-.reg input {
-  /* Style all input fields */
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-}
-
-.reg input[type=submit] {
-  /* Style the submit button */
-  background-color: #4CAF50;
-  color: white;
-}
-
-.reg .container {
-  /* Style the container for inputs */
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-.reg #message {
-  /* The message box is shown when the user clicks on the password field */
-  display: none;
-  background: #f1f1f1;
-  color: #000;
-  position: relative;
-  padding: 20px;
-  margin-top: 10px;
-}
-
-.reg #message p {
-  padding: 10px 35px;
-  font-size: 18px;
-}
-
-.reg .valid {
-  /* Add a green text color and a checkmark when the requirements are right */
-  color: green;
-}
-
-.reg .valid:before {
-  position: relative;
-  left: -35px;
-  content: "✔";
-}
-
-.reg .invalid {
-  /* Add a red text color and an "x" when the requirements are wrong */
-  color: red;
-}
-
-.reg .invalid:before {
-  position: relative;
-  left: -35px;
-  content: "✖";
 }
 /*# sourceMappingURL=main.css.map */
