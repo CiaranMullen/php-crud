@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* the styles for the html elements */
 body {
   margin-top: 0;
@@ -9,7 +10,6 @@ body {
   font-size: 1.3em;
   position: absolute;
   width: 1000px;
-  border: 1px solid black;
   background: white;
   border-radius: 4px;
   -webkit-box-sizing: border-box;
@@ -250,5 +250,211 @@ header h1 {
     display: block;
     text-align: left;
   }
+}
+
+/*for loging scss*/
+.login body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login input[type=text], .login input[type=password] {
+  /* Full-width input fields */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login button {
+  /* Set a style for all buttons */
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login button:hover {
+  opacity: 0.8;
+}
+
+.login .cancelbtn {
+  /* Extra styles for the cancel button */
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.login .imgcontainer {
+  /* Center the image and position the close button */
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.login img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.login .container {
+  padding: 16px;
+}
+
+.login span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.login .modal {
+  /* The Modal (background) */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+.login .modal-content {
+  /* Modal Content/Box */
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+.login .close {
+  /* The Close Button (x) */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.login .close:hover,
+.login .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.login .animate {
+  /* Add Zoom Animation */
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .login span.psw {
+    /* Change styles for span and cancel button on extra small screens */
+    display: block;
+    float: none;
+  }
+  .login .cancelbtn {
+    width: 100%;
+  }
+}
+
+.reg input {
+  /* Style all input fields */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.reg input[type=submit] {
+  /* Style the submit button */
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reg .container {
+  /* Style the container for inputs */
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.reg #message {
+  /* The message box is shown when the user clicks on the password field */
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.reg #message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.reg .valid {
+  /* Add a green text color and a checkmark when the requirements are right */
+  color: green;
+}
+
+.reg .valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+.reg .invalid {
+  /* Add a red text color and an "x" when the requirements are wrong */
+  color: red;
+}
+
+.reg .invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
 }
 /*# sourceMappingURL=main.css.map */

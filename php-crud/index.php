@@ -46,8 +46,8 @@ $statement3->closeCursor();
 <link rel="stylesheet" type="text/css" href="./sass/main.css">
 
 
-    
 <?php include './includes/header.php';?>
+
 
 <main>
 <h1>Record List</h1>
@@ -102,8 +102,9 @@ value="<?php echo $record['categoryID']; ?>">
 </tr>
 <?php endforeach; ?>
 </table>
-<p><a href="add_record_form.php">Add Record</a></p>
+<p><a href="add_record_form.php">Add Records</a></p>
 <p><a href="category_list.php">Edit Categories</a></p>
+
 </section>
 </main>
 <?php include './includes/footer.php';?>

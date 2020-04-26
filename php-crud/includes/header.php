@@ -8,6 +8,9 @@
   <a href="add_record_form.php">Add Record</a>
   <a href="category_list.php">add category</a>
   <a href="about.php">About</a>
+  <a href="login.php">Login</a>
+  <a href="logout.php">Logout</a>
+  <a href="register.php">Register</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
